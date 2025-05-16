@@ -1,0 +1,8 @@
+@media (max-width: 426px) {
+  .main {
+    display: inline;
+  }
+  .main__img {
+    width: 100%;
+  }
+}

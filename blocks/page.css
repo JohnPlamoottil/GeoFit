@@ -1,0 +1,11 @@
+.page {
+}
+@media (max-width: 426px) {
+  .page {
+    margin: 10px 20px;
+    padding: 10px 0;
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: #e6edf1;
+  }
+}
