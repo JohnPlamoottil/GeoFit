@@ -1,6 +1,11 @@
-@import url("../blocks/page.css");
+@import url("../blocks/background.css");
 @import url("../blocks/body.css");
 @import url("../blocks/title.css");
 @import url("../blocks/main.css");
+@import url("../blocks/nav.css");
+@import url("../blocks/form.css");
+@import url("../blocks/popup.css");
+@import url("../blocks/card.css");
+@import url("../blocks/rules.css");
 
 @import url("../vendor/normalize.css");

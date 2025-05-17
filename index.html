@@ -1,32 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/index.css" />
     <title>Document</title>
-</head>
-<body>
-    <div class="page">
-      <div class="title"> 
+  </head>
+
+  <body>
+    <main class="background">
+      <div class="title">
         <!-- <img
         src="./images/Group-3border.svg"
         class="logo__img-border"
         alt=""
       />  -->
-      <img
-          src="./images/Group-3.svg"
-          class="title__img "
-          alt=""
-        /></div>
-       
-  
-        <div class="main"><img
-          src="./images/Stockpho 1.png"
-          class="main__img"
-          alt=""
-        /></h1>
+        <img src="./images/Group-3.svg" class="title__img" alt="" />
+
+        <div class="main">
+          <img src="./images/Stockpho 1.png" class="main__img" alt="" />
+        </div>
+      </div>
+      <!-- start of Rules -->
+      <div class="rules">
+        <h1 class="rules__title">Geocaching Rules and Etiquette</h1>
+        <h2 class="rules__subtitle">Rule No. 1: Keep Safe</h2>
+        <p class="rules__text">
+          <ul>
+            <li>Stay far away from road traffic and railroad crossings.</li>
+            <li>Don’t place a cache higher than 6 feet or require any dangerous climbing to reach
+              it.</li>
+            <li>Don’t require Scouts to swim to reach the cache</li>
+            <li>Public caches are often magnetic containers stuck onto electrical switch boxes.
+              Common sense says to avoid these as well!</li>
+            <li>Always enforce the buddy system.</li>
+          </ul>
+        </p>
+        <h2 class="rules__subtitle">Rule No. 2: Respect the Environment</h2>
+        <p class="rules__text">
+          <ul>
+            <li>Never bury a cache in the ground.</li>
+            <li>Avoid sensitive ecosystems. Place caches so that they can be reached by existing
+              trail access</li>
+            <li>Don’t place caches in archaeological or historic sites.</li>
+            <li>Don’t deface any object, natural or manmade.</li>
+            <li>Don’t hide caches in lightpost bases, sprinkler heads, etc.</li>
+          </ul>
+        </p>
+        <h2 class="rules__subtitle">Rule No. 3: Respect Private Property</h2>
+        <p class="rules__text">
+          <ul>
+            <li>Get permission from land managers to use parks, Scout camps, etc., for your
+              events.</li>
+            <li>It is unlawful to put caches on National Park land or national wildlife refuges.</li>
+            <li>Local laws and policies vary so check with any relevant agency before placing
+              caches.</li>
+            <li>Caches in or near military installations are not allowed.</li>
+            <li>Caches are not allowed on elementary and secondary school property</li>
+            <li>Avoid sites that could be deemed potential or possible targets for terrorist attacks,
+              including but not limited to highway bridges, dams, government buildings, and
+              airports.</li>
+          </ul>
+        </p>
         
-</header>
-</body>
+           
+      </div>
+      <!-- start of content -->
+      <div class="content">
+        <div class="content__card">
+          <img
+            src="./images/istockphoto-471191901-612x612.jpg"
+            alt=""
+            class="content__card_image"
+          />
+          <p class="content__card_location">New York</p>
+        </div>
+        <div class="content__card">
+          <img
+            src="./images/istockphoto-471191901-612x612.jpg"
+            alt=""
+            class="content__card_image"
+          />
+          <p class="content__card_location">Florida</p>
+        </div>
+        <div class="content__card">
+          <img
+            src="./images/istockphoto-471191901-612x612.jpg"
+            alt=""
+            class="content__card_image"
+          />
+          <p class="content__card_location">Texas</p>
+        </div>
+        <div class="content__card">
+          <img
+            src="./images/istockphoto-471191901-612x612.jpg"
+            alt=""
+            class="content__card_image"
+          />
+          <p class="content__card_location">California</p>
+        </div>
+        <div class="content__card">
+          <img
+            src="./images/istockphoto-471191901-612x612.jpg"
+            alt=""
+            class="content__card_image"
+          />
+          <p class="content__card_location">Ohio</p>
+        </div>
+        <div class="content__card">
+          <img
+            src="./images/istockphoto-471191901-612x612.jpg"
+            alt=""
+            class="content__card_image"
+          />
+          <p class="content__card_location">New Jersey</p>
+        </div>
+      </div>
+      <!-- start of nav -->
+      <div class="nav">
+        <div class="nav__bar">
+          <ul class="nav__links">
+            <li class="nav__btn"><a class="nav__link" href="#">Home</a></li>
+            <li class="nav__btn"><a class="nav__link" href="#">Rules</a></li>
+            <li class="nav__btn"><a class="nav__link" href="#">About</a></li>
+            <li class="nav__btn"><a class="nav__link" href="#">Add</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="popup" id="add-todo-popup">
+        <form
+          class="popup__form"
+          name="add-todo-form"
+          id="add-todo-form"
+          novalidate
+        >
+          <fieldset class="popup__fieldset">
+            <label class="popup__label" for="todo-name">
+              What needs to be done?
+              <input
+                class="popup__input"
+                id="todo-name"
+                maxlength="40"
+                minlength="2"
+                name="name"
+                placeholder="Write here"
+                required
+                type="text"
+              />
+              <span class="popup__error" id="todo-name-error"></span>
+            </label>
+            <label class="popup__label" for="todo-date">
+              When does it need to be done? (optional)
+              <input
+                class="popup__input popup__input_type_date"
+                id="todo-date"
+                name="date"
+                type="date"
+                min="2023-01-01"
+                max="3000-12-31"
+              />
+              <span class="popup__error" id="todo-date-error"></span>
+            </label>
+          </fieldset>
+          <button class="button popup__button" type="submit">Create</button>
+        </form>
+      </div>
+      <script type="module" src="./style/index.js"></script>
+    </main>
+  </body>
 </html>

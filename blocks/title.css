@@ -1,8 +1,8 @@
 @media (max-width: 425px) {
   .title {
-  }
-  .title__img {
-  }
-  .title__img-border {
+    margin: 10px 20px;
+    padding: 10px 0;
+    box-sizing: border-box;
+    background-color: #e6edf1;
   }
 }
