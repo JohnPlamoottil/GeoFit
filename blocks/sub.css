@@ -11,6 +11,10 @@
   .sub {
     display: inline;
   }
+  .sub__title {
+    font-size: 64px;
+    text-align: center;
+  }
   .sub__img {
     width: 100%;
   }
