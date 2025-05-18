@@ -1,8 +1,17 @@
+/* .sub {
+}
+
+.sub__info {
+}
+
+.sub__title {
+} */
+
 @media (max-width: 426px) {
-  .main {
+  .sub {
     display: inline;
   }
-  .main__img {
+  .sub__img {
     width: 100%;
   }
 }
