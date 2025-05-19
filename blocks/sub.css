@@ -19,9 +19,10 @@
   }
   .sub__img3 {
     position: absolute;
+    margin: 0 10px;
     top: 60px;
     left: 0;
-    width: 100%;
+    max-width: 400px;
   }
   .sub__img1 {
     position: relative;
