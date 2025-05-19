@@ -43,6 +43,17 @@
         alt="Header Backdrop2"
         />
        <h1 class="sub__title">Geo Fit</h1></div>
+       <!-- start of nav -->
+      <div class="nav">
+        <div class="nav__bar">
+          <ul class="nav__links">
+            <li class="nav__btn"><a class="nav__link" href="#">Home</a></li>
+            <li class="nav__btn"><a class="nav__link" href="#">Rules</a></li>
+            <li class="nav__btn"><a class="nav__link" href="#">About</a></li>
+            <li class="nav__btn"><a class="nav__link" href="#">Add</a></li>
+          </ul>
+        </div>
+      </div>
       <!-- start of Rules -->
       <div class="rules">
         <h1 class="rules__title">Geocaching Rules and Etiquette</h1>
@@ -138,55 +149,46 @@
           <p class="content__card_location">New Jersey</p>
         </div>
       </div>
-      <!-- start of nav -->
-      <div class="nav">
-        <div class="nav__bar">
-          <ul class="nav__links">
-            <li class="nav__btn"><a class="nav__link" href="#">Home</a></li>
-            <li class="nav__btn"><a class="nav__link" href="#">Rules</a></li>
-            <li class="nav__btn"><a class="nav__link" href="#">About</a></li>
-            <li class="nav__btn"><a class="nav__link" href="#">Add</a></li>
-          </ul>
-        </div>
-      </div>
+      
 
-      <div class="popup" id="add-todo-popup">
+      <div class="popup" id="add-geolocation-popup">
+        <div class="popup__content">
         <form
           class="popup__form"
-          name="add-todo-form"
-          id="add-todo-form"
+          name="add-geolocation-form"
+          id="add-geoloacation-form"
           novalidate
         >
           <fieldset class="popup__fieldset">
-            <label class="popup__label" for="todo-name">
+            <label class="popup__label" for="todo-location">
               What needs to be done?
               <input
                 class="popup__input"
-                id="todo-name"
+                id="popup-location"
                 maxlength="40"
                 minlength="2"
                 name="name"
-                placeholder="Write here"
+                placeholder="City, State"
                 required
                 type="text"
               />
               <span class="popup__error" id="todo-name-error"></span>
             </label>
-            <label class="popup__label" for="todo-date">
+            <label class="popup__label" for="popup-image-link">
               When does it need to be done? (optional)
               <input
-                class="popup__input popup__input_type_date"
-                id="todo-date"
-                name="date"
-                type="date"
-                min="2023-01-01"
-                max="3000-12-31"
+                class="popup__input popup-image-link"
+                id="popup-image-link"
+                placeholder="Upload Image Here"
+                type="text"
+          
               />
               <span class="popup__error" id="todo-date-error"></span>
             </label>
           </fieldset>
           <button class="button popup__button" type="submit">Create</button>
         </form>
+      </div>
       </div>
       <script type="module" src="./style/index.js"></script>
     </main>
