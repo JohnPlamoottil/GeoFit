@@ -1,5 +1,12 @@
-@media (max-width: 426px) {
+.rules {
+  padding-left: 28px;
+  padding-top: 50px;
+}
+
+@media screen and (max-width: 426px) {
   .rules {
-    background-color: #fff;
+    background-color: #0000;
+    padding-right: 35px;
+    text-align: start;
   }
 }
