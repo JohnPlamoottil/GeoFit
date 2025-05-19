@@ -1,7 +1,8 @@
-/* .header {
+.header {
+  display: flex;
 }
 
-.header__section {
+/* .header__section {
 }
 
 .header__logo {

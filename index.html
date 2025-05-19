@@ -13,6 +13,17 @@
 <body class="page">
     <div class="page__info">
       <header class="header"> 
+        <!-- start of nav -->
+      <div class="nav">
+        <div class="nav__bar">
+          <ul class="nav__links">
+            <li class="nav__btn"><a class="nav__link" href="#">Home</a></li>
+            <li class="nav__btn"><a class="nav__link" href="#">Rules</a></li>
+            <li class="nav__btn"><a class="nav__link" href="#">About</a></li>
+            <li class="nav__btn"><a class="nav__link" href="#">Add</a></li>
+          </ul>
+        </div>
+      </div>
         <div class="header__section">
         <!-- <img
         class="header__logo"
@@ -43,17 +54,7 @@
         alt="Header Backdrop2"
         />
        <h1 class="sub__title">Geo Fit</h1></div>
-       <!-- start of nav -->
-      <div class="nav">
-        <div class="nav__bar">
-          <ul class="nav__links">
-            <li class="nav__btn"><a class="nav__link" href="#">Home</a></li>
-            <li class="nav__btn"><a class="nav__link" href="#">Rules</a></li>
-            <li class="nav__btn"><a class="nav__link" href="#">About</a></li>
-            <li class="nav__btn"><a class="nav__link" href="#">Add</a></li>
-          </ul>
-        </div>
-      </div>
+       
       <!-- start of Rules -->
       <div class="rules">
         <h1 class="rules__title">Geocaching Rules and Etiquette</h1>
@@ -149,9 +150,22 @@
           <p class="content__card_location">New Jersey</p>
         </div>
       </div>
-       <footer class="footer">
-        <p class="footer__copyright">&copy; 2025 Theo Shellman, Kierra Bartlett, John J., Brandon Delgado</p>
-      </footer>
+      
+      <div>
+         <div class="About Us">
+        <h1>
+          About this App
+        </h1>
+        <p>
+          This is a GeoFit app. You can make your own by typing the following into your command line and following the prompts:
+
+The page you're looking at is purely static HTML, with no client-side interactivity needed. Because of that, we don't need to load any JavaScript. Try viewing the page's source, or opening the devtools network panel and reloading.
+
+The page illustrates GeoFit's data loading and form handling. Try using it with JavaScript disabled!
+        </p>
+
+      </div>
+      </div>
       <div class="popup" id="add-geolocation-popup">
         <div class="popup__content">
         <form
@@ -191,6 +205,9 @@
         </form>
       </div>
       </div>
+       <footer class="footer">
+        <p class="footer__copyright">&copy; 2025 Theo Shellman, Kierra Bartlett, John J. Plamoottil, Brandon Delgado</p>
+      </footer>
       <script type="module" src="./style/index.js"></script>
     </main>
   </body>
