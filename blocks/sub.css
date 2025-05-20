@@ -4,7 +4,7 @@
 
 .sub__title {
   position: absolute;
-  top: 40px;
+  top: 100px;
   left: 400px;
   font-size: 80px;
 }
@@ -12,21 +12,21 @@
 .sub__img3 {
   position: absolute;
   max-width: 100%;
-  top: 260px;
+  top: 210px;
   left: 0;
   margin: 0 80px;
 }
 
 .sub__img1 {
   position: relative;
-  top: 38px;
+  top: 0;
   left: 7px;
   width: 100%;
 }
 
 .sub__img2 {
   position: relative;
-  bottom: 182px;
+  bottom: 190px;
   right: 2px;
   width: 100%;
 }
