@@ -1,5 +1,5 @@
 .sub {
-  display: block;
+  width: 100%;
 }
 
 .sub__title {
@@ -36,24 +36,25 @@
     display: inline;
   }
   .sub__title {
+    max-width: 426px;
     top: 0;
     left: 90px;
     font-size: 54px;
   }
   .sub__img3 {
     margin: 0 10px;
-    top: 100px;
+    top: 90px;
     left: 0;
-    width: 380px;
+    width: 330px;
   }
   .sub__img1 {
-    top: 5px;
+    top: 2px;
     left: 2px;
-    max-width: 100%;
+    max-width: 350px;
   }
   .sub__img2 {
-    bottom: 76px;
-    left: 9px;
-    max-width: 100%;
+    bottom: 62px;
+    left: 5px;
+    max-width: 340px;
   }
 }
