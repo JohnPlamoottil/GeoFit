@@ -1,12 +1,12 @@
-.rules {
+.about {
   padding-left: 45px;
   padding-top: 50px;
 }
 
 @media screen and (max-width: 426px) {
-  .rules {
-    background-color: #0000;
+  .about {
     padding-right: 38px;
     text-align: start;
+    text-align: center;
   }
 }

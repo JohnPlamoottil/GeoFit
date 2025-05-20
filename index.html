@@ -152,18 +152,24 @@
       </div>
       
       <div>
-         <div class="About Us">
-        <h1>
+         <div class="about">
+        <h2 id="about-the-app" class="about__title">
           About this App
-        </h1>
-        <p>
-          This is a GeoFit app. You can make your own by typing the following into your command line and following the prompts:
+        </h2>
+        <p class="about__summary">
+          This is a GeoFit app. You can make your own by typing the following 
+          into your command line and following the prompts:<br>
 
-The page you're looking at is purely static HTML, with no client-side interactivity needed. Because of that, we don't need to load any JavaScript. Try viewing the page's source, or opening the devtools network panel and reloading.
-
-The page illustrates GeoFit's data loading and form handling. Try using it with JavaScript disabled!
+          The page you're looking at is purely static HTML, with no client-side 
+          interactivity needed. Because of that, we don't need to load any JavaScript.<br> 
+          Try viewing the page's source, or opening the devtools network panel and reloading.
+          <br>The page illustrates GeoFit's data loading and form handling. 
+          <br>Try using it with JavaScript disabled!
         </p>
-
+ <footer class="footer">
+        <p class="footer__copyright">&copy; 2025 Theo Shellman, Kierra Bartlett,
+          <br>John J. Plamoottil, Brandon Delgado</p>
+      </footer>
       </div>
       </div>
       <div class="popup" id="add-geolocation-popup">
@@ -196,7 +202,6 @@ The page illustrates GeoFit's data loading and form handling. Try using it with 
                 id="popup-image-link"
                 placeholder="Upload Image Here"
                 type="text"
-          
               />
               <span class="popup__error" id="todo-date-error"></span>
             </label>
@@ -205,9 +210,6 @@ The page illustrates GeoFit's data loading and form handling. Try using it with 
         </form>
       </div>
       </div>
-       <footer class="footer">
-        <p class="footer__copyright">&copy; 2025 Theo Shellman, Kierra Bartlett, John J. Plamoottil, Brandon Delgado</p>
-      </footer>
       <script type="module" src="./style/index.js"></script>
     </main>
   </body>
