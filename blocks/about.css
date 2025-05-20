@@ -1,11 +1,11 @@
 .about {
-  padding-left: 45px;
+  padding-left: 60px;
   padding-top: 50px;
 }
 
 @media screen and (max-width: 426px) {
   .about {
-    padding-right: 38px;
+    padding-right: 60px;
     text-align: start;
     text-align: center;
   }
